@@ -1,0 +1,48 @@
+<script>
+import wepy from '@wepy/core'
+
+wepy.app({
+
+})
+</script>
+
+<style lang="less" scoped>
+@import './style.wxss';
+</style>
+
+<config>
+{
+  style: 'v2',
+  pages: [
+    'pages/entry',
+    'pages/game'
+  ],
+  window: {
+    backgroundColor: '#f3f4f5',
+    backgroundTextStyle: 'light',
+    navigationBarBackgroundColor: '#f3f4f5',
+    navigationBarTitleText: 'Cubic',
+    navigationBarTextStyle: 'black'
+  },
+  tabBar: {
+    color: '#8799a3',
+    selectedColor: '#66a6ff',
+    backgroundColor: '#fff',
+    borderStyle: 'white',
+    list: [
+      {
+        text: 'Memo',
+        pagePath: 'pages/entry',
+        iconPath: 'static/images/fire.png',
+        selectedIconPath: 'static/images/fire.tap.png'
+      },
+      {
+        text: 'Game',
+        pagePath: 'pages/game',
+        iconPath: 'static/images/bulb.png',
+        selectedIconPath: 'static/images/bulb.tap.png'
+      }
+    ]
+  }
+}
+</config>

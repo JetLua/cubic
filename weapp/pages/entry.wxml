@@ -1,0 +1,7 @@
+
+<view class="page">
+  <view class="search">
+    <label class="icon-search"></label>
+    <input type="text" placeholder="..."></input>
+  </view>
+</view>

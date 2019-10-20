@@ -1,0 +1,10 @@
+<template>
+  <div>123</div>
+</template>
+
+<script>
+import wepy from '@wepy/core'
+wepy.page({
+
+})
+</script>

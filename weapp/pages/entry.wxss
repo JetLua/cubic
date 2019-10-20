@@ -1,0 +1,27 @@
+.page {
+  background-color: #f3f4f5;
+}
+.page .search {
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  max-width: 300px;
+  background-color: #fff;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 20px;
+}
+.page .search .icon-search::before {
+  font-size: 16px;
+}
+.page .search input {
+  height: 100%;
+  line-height: 20px;
+  display: block;
+  margin-left: 10px;
+  color: #555;
+  font-size: 14px;
+}
+

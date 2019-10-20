@@ -1,0 +1,16 @@
+{
+	"description": "Never stop exploring the wonderful things",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": false
+	},
+	"compileType": "miniprogram",
+	"appid": "wxb5877723643ed7da",
+	"projectname": "cubic",
+	"miniprogramRoot": "weapp/",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}
